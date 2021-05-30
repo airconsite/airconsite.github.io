@@ -227,10 +227,20 @@ footer a {
   background-color: #333333;
 }
 
-img.float-left{
+img.float-left {
   width: 175px;
   height: 175px;
   clear: both;
   margin: 5px 25px 0 0;
   border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer .inner-footer {
+    padding: 100px 5px !important;
+  }
+}
+
+body {
+  position: static !important;
 }
