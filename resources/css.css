@@ -244,3 +244,38 @@ img.float-left {
 body {
   position: static !important;
 }
+
+.social-media-icon{
+  text-decoration: none;
+}
+
+.social-media-icon img{
+width: 32px;
+margin: 2px;
+}
+
+.big-img{
+  height: 35vw;
+}
+
+.not-full-page{
+  height: 80vh !important;
+}
+
+.not-full-page .frontface-content h1 {
+  font-size: 102px !important;
+  line-height: 102px !important;
+  letter-spacing: -3px !important;
+  }
+
+  .product-description p, .product-description li{
+    font-size: 14px;
+  }
+
+  .row.hidden{
+    display: none;
+  }
+
+  #product-list a{
+    cursor: pointer;
+  }
