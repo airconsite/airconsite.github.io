@@ -150,10 +150,10 @@ footer a {
 }
 
 @media only screen and (max-width: 768px) {
-  .frontface-content h1 {
-    font-size: 45px;
-    line-height: 30px;
-    letter-spacing: -1px;
+  .frontface-content h1, .not-full-page .frontface-content h1 {
+    font-size: 45px !important;
+    line-height: 45px !important;
+    letter-spacing: -1px !important;
   }
 
   .frontface-description {
@@ -202,6 +202,12 @@ footer a {
 
   .brandCol:nth-child(n + 3) {
     margin-top: 20px;
+  }
+
+  .navbar-collapse{
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
   }
 }
 
@@ -260,12 +266,13 @@ margin: 2px;
 
 .not-full-page{
   height: 80vh !important;
+  background-position: 0 100%;
 }
 
 .not-full-page .frontface-content h1 {
-  font-size: 102px !important;
-  line-height: 102px !important;
-  letter-spacing: -3px !important;
+  font-size: 102px;
+  line-height: 102px;
+  letter-spacing: -3px;
   }
 
   .product-description p, .product-description li{
@@ -279,3 +286,9 @@ margin: 2px;
   #product-list a{
     cursor: pointer;
   }
+
+  .navbar-toggler-icon{
+    background: url(./burger.png);
+  }
+
+ 
