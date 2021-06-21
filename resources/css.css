@@ -1,294 +1,300 @@
 .frontface {
-  height: 100vh;
-  background: url(../resources/bg.jpg) no-repeat center center/cover;
-  background-attachment: fixed;
-  overflow: hidden;
+    height: 100vh;
+    background: url(../resources/bg.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
 }
 
 .frontface-content {
-  color: white;
-  position: absolute;
-  top: 20%;
-  left: 50px;
-  width: 50%;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    width: 50%;
 }
 
 .frontface-content h1 {
-  font-size: 145px;
-  line-height: 130px;
-  letter-spacing: -8px;
-  text-transform: uppercase;
-  font-weight: 800;
+    font-size: 145px;
+    line-height: 130px;
+    letter-spacing: -8px;
+    text-transform: uppercase;
+    font-weight: 800;
 }
 
 .separator {
-  border-top: 3px solid #ffe600;
-  width: 200px;
-  margin: 40px 0;
+    border-top: 3px solid #ffe600;
+    width: 200px;
+    margin: 40px 0;
 }
 
 .frontface-description {
-  font-size: 24px;
-  font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .frontface-bg {
-  background: rgba(0, 0, 0, 0.4);
-  height: 100%;
-  width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
 }
 
 .section {
-  padding: 90px 50px;
-  font-size: 18px;
+    padding: 90px 50px;
+    font-size: 18px;
 }
 
 .punchline {
-  font-size: 43px;
-  font-weight: 800;
-  text-transform: uppercase;
-  line-height: 1.05;
-  letter-spacing: -1.5px;
-  margin: 10px auto 35px;
+    font-size: 43px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.05;
+    letter-spacing: -1.5px;
+    margin: 10px auto 35px;
 }
 
 .cols-sec h2 {
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 5px auto 10px;
-  color: #023575;
-  letter-spacing: 0;
-  text-decoration: none;
-  line-height: 1.3;
-  margin: 15px 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 5px auto 10px;
+    color: #023575;
+    letter-spacing: 0;
+    text-decoration: none;
+    line-height: 1.3;
+    margin: 15px 0;
 }
 
 .para {
-  font-size: 16px;
-  color: #758495;
-  font-weight: 500;
-  line-height: 1.5;
+    font-size: 16px;
+    color: #758495;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .numbers-sec .h3 {
-  text-align: center;
-  width: 100%;
-  font-size: 70px;
-  font-weight: 800;
-  letter-spacing: -2.5px;
-  line-height: 1;
-  margin: 0 auto -10px;
-  padding-top: 10px;
-  color: white;
-  text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: -2.5px;
+    line-height: 1;
+    margin: 0 auto -10px;
+    padding-top: 10px;
+    color: white;
+    text-transform: uppercase;
 }
 
 .numberCol {
-  color: white;
-  font-weight: bold;
-  text-align: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 .numberCol p {
-  font-size: 14px;
-  font-weight: 400;
-  margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
 }
+
 
 /* .numberCol span{
   font-size: 28px;
 } */
 
 .red-color {
-  color: #ef323a;
+    color: #ef323a;
 }
 
 .brandCol img {
-  width: 50%;
+    width: 50%;
 }
 
 .footer {
-  margin: 0 auto 0;
-  clear: both;
+    margin: 0 auto 0;
+    clear: both;
 }
 
 .footer .inner-footer {
-  background: #fff;
-  padding: 100px 50px;
-  border-top: 1px solid #e5e5e5;
+    background: #fff;
+    padding: 100px 50px;
+    border-top: 1px solid #e5e5e5;
 }
 
 .contact-col {
-  min-width: 21%;
+    min-width: 21%;
 }
 
 .footer-head {
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: poppins, sans-serif;
-  margin: 5px auto 10px;
-  color: #ef323a;
-  margin: 0 auto 10px;
-  display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: poppins, sans-serif;
+    margin: 5px auto 10px;
+    color: #ef323a;
+    margin: 0 auto 10px;
+    display: inline-block;
 }
 
 footer a {
-  color: white;
+    color: white;
 }
 
 .estimate {
-  background: white;
-  padding: 7px;
-  color: black;
-  border-radius: 9px;
+    background: white;
+    padding: 7px;
+    color: black;
+    border-radius: 9px;
 }
 
 @media only screen and (max-width: 768px) {
-  .frontface-content h1, .not-full-page .frontface-content h1 {
-    font-size: 45px !important;
-    line-height: 45px !important;
-    letter-spacing: -1px !important;
-  }
-
-  .frontface-description {
-    font-size: 16px;
-  }
-
-  .frontface-content {
-    top: 28%;
-    left: 10%;
-    width: 80%;
-  }
-
-  .section {
-    padding: 50px;
-  }
-
-  .punchline {
-    font-size: 30px;
-  }
-
-  .numbers-sec .h3 {
-    font-size: 30px;
-  }
-
-  .brandCol {
-    width: 50% !important;
-  }
-
-  .punchline {
-    text-align: center;
-  }
-
-  .servicesSec .cols {
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  .numberCol:not(:first-child) {
-    border-top: 0.1px solid white;
-    padding: 20px;
-  }
-
-  .brandCol img {
-    margin-top: 0 !important;
-  }
-
-  .brandCol:nth-child(n + 3) {
-    margin-top: 20px;
-  }
-
-  .navbar-collapse{
-    background: black;
-    padding: 10px;
-    border-radius: 10px;
-  }
+    .frontface-content h1,
+    .not-full-page .frontface-content h1 {
+        font-size: 45px !important;
+        line-height: 45px !important;
+        letter-spacing: -1px !important;
+    }
+    .frontface-description {
+        font-size: 16px;
+    }
+    .frontface-content {
+        top: 28%;
+        left: 10%;
+        width: 80%;
+    }
+    .section {
+        padding: 50px;
+    }
+    .punchline {
+        font-size: 30px;
+    }
+    .numbers-sec .h3 {
+        font-size: 30px;
+    }
+    .brandCol {
+        width: 50% !important;
+    }
+    .punchline {
+        text-align: center;
+    }
+    .servicesSec .cols {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .numberCol:not(:first-child) {
+        border-top: 0.1px solid white;
+        padding: 20px;
+    }
+    .brandCol img {
+        margin-top: 0 !important;
+    }
+    .brandCol:nth-child(n + 3) {
+        margin-top: 20px;
+    }
+    .navbar-collapse {
+        background: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
 }
 
 .bg-dark {
-  background-color: #000 !important;
+    background-color: #000 !important;
 }
 
 .brand-logo {
-  width: 36px;
-  margin-left: 20px;
+    width: 36px;
+    margin-left: 20px;
 }
 
 .dark-green {
-  color: darkgreen;
+    color: darkgreen;
 }
 
 .top-bar-estimate {
-  font-weight: bold;
-  color: white;
+    font-weight: bold;
+    color: white;
 }
 
 .grey-bg {
-  background-color: #333333;
+    background-color: #333333;
 }
 
 img.float-left {
-  width: 175px;
-  height: 175px;
-  clear: both;
-  margin: 5px 25px 0 0;
-  border-radius: 15px;
+    width: 175px;
+    height: 175px;
+    clear: both;
+    margin: 5px 25px 0 0;
+    border-radius: 15px;
 }
 
-@media only screen and (max-width: 600px) {
-  .footer .inner-footer {
-    padding: 100px 5px !important;
-  }
+@media only screen and (max-width: 768px) {
+    .footer .inner-footer {
+        padding: 100px 5px !important;
+    }
+    .row.hidden {
+        display: block !important;
+        margin-top: 6vh;
+        padding-top: 6vh;
+        border-top: 1px solid black;
+    }
 }
 
 body {
-  position: static !important;
+    position: static !important;
 }
 
-.social-media-icon{
-  text-decoration: none;
+.social-media-icon {
+    text-decoration: none;
 }
 
-.social-media-icon img{
-width: 32px;
-margin: 2px;
+.social-media-icon img {
+    width: 32px;
+    margin: 2px;
 }
 
-.big-img{
-  height: 35vw;
+.big-img {
+    height: 35vw;
 }
 
-.not-full-page{
-  height: 80vh !important;
-  background-position: 0 100%;
+.not-full-page {
+    height: 80vh !important;
+    background-position: 0 100%;
 }
 
 .not-full-page .frontface-content h1 {
-  font-size: 102px;
-  line-height: 102px;
-  letter-spacing: -3px;
-  }
+    font-size: 102px;
+    line-height: 102px;
+    letter-spacing: -3px;
+}
 
-  .product-description p, .product-description li{
-    font-size: 14px;
-  }
-
-  .row.hidden{
+.row.hidden {
     display: none;
-  }
+}
 
-  #product-list a{
+#product-list a {
     cursor: pointer;
-  }
+}
 
-  .navbar-toggler-icon{
+.navbar-toggler-icon {
     background: url(./burger.png);
-  }
+}
 
- 
+.list-group-item-action.active {
+    background: #000;
+    color: #fff !important;
+    border-color: #000 !important;
+}
+
+.list-group-item,
+.product-description {
+    border-color: grey !important;
+}
+
+.brochure-button img,
+.video-button img {
+    width: 75px;
+}
