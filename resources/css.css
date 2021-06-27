@@ -25,6 +25,10 @@
     font-weight: 800;
 }
 
+.not-full-page .separator {
+    margin: 10px 0;
+}
+
 .separator {
     border-top: 3px solid #ffe600;
     width: 200px;
@@ -150,15 +154,15 @@ footer a {
     border-radius: 9px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:500px) {
     .frontface-content h1,
     .not-full-page .frontface-content h1 {
-        font-size: 45px !important;
-        line-height: 45px !important;
+        font-size: 55px !important;
+        line-height: 55px !important;
         letter-spacing: -1px !important;
     }
     .frontface-description {
-        font-size: 16px;
+        font-size: 21px;
     }
     .frontface-content {
         top: 28%;
@@ -199,6 +203,75 @@ footer a {
         padding: 10px;
         border-radius: 10px;
     }
+    .footer .inner-footer {
+        padding: 100px 5px !important;
+    }
+    .row.hidden {
+        display: block !important;
+        margin-top: 6vh;
+        padding-top: 6vh;
+        border-top: 1px solid black;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 768px) {
+    .frontface-content h1,
+    .not-full-page .frontface-content h1 {
+        font-size: 95px !important;
+        line-height: 95px !important;
+        letter-spacing: -1px !important;
+    }
+    .frontface-description {
+        font-size: 21px;
+    }
+    .frontface-content {
+        top: 28%;
+        left: 10%;
+        width: 80%;
+    }
+    .section {
+        padding: 50px;
+    }
+    .punchline {
+        font-size: 30px;
+    }
+    .numbers-sec .h3 {
+        font-size: 30px;
+    }
+    .brandCol {
+        width: 50% !important;
+    }
+    .punchline {
+        text-align: center;
+    }
+    .servicesSec .cols {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .numberCol:not(:first-child) {
+        border-top: 0.1px solid white;
+        padding: 20px;
+    }
+    .brandCol img {
+        margin-top: 0 !important;
+    }
+    .brandCol:nth-child(n + 3) {
+        margin-top: 20px;
+    }
+    .navbar-collapse {
+        background: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .footer .inner-footer {
+        padding: 100px 5px !important;
+    }
+    .row.hidden {
+        display: block !important;
+        margin-top: 6vh;
+        padding-top: 6vh;
+        border-top: 1px solid black;
+    }
 }
 
 .bg-dark {
@@ -231,18 +304,6 @@ img.float-left {
     border-radius: 15px;
 }
 
-@media only screen and (max-width: 768px) {
-    .footer .inner-footer {
-        padding: 100px 5px !important;
-    }
-    .row.hidden {
-        display: block !important;
-        margin-top: 6vh;
-        padding-top: 6vh;
-        border-top: 1px solid black;
-    }
-}
-
 body {
     position: static !important;
 }
@@ -261,13 +322,13 @@ body {
 }
 
 .not-full-page {
-    height: 80vh !important;
+    height: 45vh !important;
     background-position: 0 100%;
 }
 
 .not-full-page .frontface-content h1 {
-    font-size: 102px;
-    line-height: 102px;
+    font-size: 55px;
+    line-height: 55px;
     letter-spacing: -3px;
 }
 
