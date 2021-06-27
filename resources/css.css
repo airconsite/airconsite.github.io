@@ -306,11 +306,11 @@ body {
     border-radius: 8px;
 }
 
-a.brochure-button {
+.brochure-button {
     position: relative;
 }
 
-a.brochure-button:after {
+.brochure-button:after {
     content: "";
     display: block;
     width: 20px;
@@ -323,4 +323,19 @@ a.brochure-button:after {
     position: absolute;
     top: -33.5px;
     right: -1px;
+}
+
+.bv-button {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.bv-button label {
+    display: block;
+    text-align: center;
+    color: #5f5f5f;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: bold;
 }
