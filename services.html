@@ -87,16 +87,16 @@
                                         <div class="col-md-6">
                                             <a class="bv-button mr-4" href="http://bagfilters.in/files/Download/online-bag-filter.pdf">
                                                 <span class="brochure-button">
-                                            <img src="resources/brochure.jpg" alt="Download Brochure">
-                                        </span>
+                                                <img src="resources/brochure.jpg" alt="Download Brochure">
+                                            </span>
                                                 <label>Brochure</label>
                                             </a>
 
                                             <a class="bv-button" href="">
                                                 <span class="video-button">
-                                            <img src="resources/brochurevideo.jpg"
-                                                alt="Watch video on Pulse Jet Bag Filter">
-                                        </span>
+                                                <img src="resources/brochurevideo.jpg"
+                                                    alt="Watch video on Pulse Jet Bag Filter">
+                                            </span>
                                                 <label>Video</label>
                                             </a>
                                             <br><br>Pulse Jet Bag filter is a dry dust filter device. It is suitable for trapping fine, dry, non-fibrous dust.
@@ -323,32 +323,7 @@
     <script src="./resources/popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="./resources/bootstrap.min.js.download" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script>
-        function scrollSet() {
-            if ($(this).scrollTop() > 100) {
-                $(".navbar").addClass("bg-dark");
-            } else {
-                $(".navbar").removeClass("bg-dark");
-            }
-        }
-
-        (function($) {
-            $(document).ready(function() {
-                $(function() {
-                    $(window).scroll(scrollSet);
-                    scrollSet();
-
-                    $("#product-list a").click(function() {
-                        var ind = $(this).index();
-                        $(".active").removeClass("active");
-                        $(this).addClass("active");
-                        $(".product-description > .row").addClass('hidden').eq(ind).removeClass('hidden');
-                    });
-
-                });
-            });
-        })(jQuery);
-    </script>
+    <script src="./resources/js.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
     <script>

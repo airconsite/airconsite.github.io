@@ -18,8 +18,8 @@
     <nav class="fixed-top navbar navbar-expand-lg">
         <a class="navbar-brand" href="index.html"><img src="./resources/logo1.png" class="d-inline-block align-top brand-logo" alt="Brand Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="pl-5 mr-auto navbar-nav">
                 <li class="nav-item active text-white">
@@ -44,8 +44,9 @@
     <div class="frontface">
         <div class="frontface-bg">
             <div class="frontface-content">
-                <h1>Aircon</h1>
-                <h1 class="red-color">Systems</h1>
+                <h1>Aircon
+                    <span class="red-color">Systems</span>
+                </h1>
                 <div class="separator"></div>
 
                 <p class="frontface-description">
@@ -179,7 +180,8 @@
                         <div>
                             <p>
                                 <img class="float-left" src="./resources/factory.jpg" alt="Proprietor" title="Proprietor" />
-                                <strong><i>Manufacturing Unit:</i></strong><br /> Khasra No.670,<br /> Hinasali Road, <br /> Besant Pur, <br /> Sainthli Murad Nagar,<br /> U.P. India
+                                <strong><i>Manufacturing Unit:</i></strong><br /> Khasra No.670,<br /> Hinasali Road,
+                                <br /> Besant Pur, <br /> Sainthli Murad Nagar,<br /> U.P. India
                             </p>
                             <br />
                             <p>
@@ -196,14 +198,15 @@
                         <br />
                         <div>Proprietor: Kishore Dulani</div>
                         <u>
-              <a href="tel:+919312893079"><span class="number">+91-9312893079</span></a>
-            </u>
+                            <a href="tel:+919312893079"><span class="number">+91-9312893079</span></a>
+                        </u>
                         <br />
                         <br />
                         <div class="rowfull">
                             Whatsapp:
                             <u><a href="https://api.whatsapp.com/send?phone=919312893079">+91 - 9312893079</a></u><br /> Email:
-                            <u><a href="mailto:info@airconsystems.in">info@airconsystems.in</a></u><br /> Skype: <u><a href="skype:aircon">aircon</a></u>
+                            <u><a href="mailto:info@airconsystems.in">info@airconsystems.in</a></u><br /> Skype: <u><a
+                                    href="skype:aircon">aircon</a></u>
                             <br />
                             <br />
                             <br /> Social Media:
@@ -223,25 +226,7 @@
     <script src="./resources/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="./resources/popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="./resources/bootstrap.min.js.download" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <script>
-        function scrollSet() {
-            if ($(this).scrollTop() > 100) {
-                $(".navbar").addClass("bg-dark");
-            } else {
-                $(".navbar").removeClass("bg-dark");
-            }
-        }
-
-        (function($) {
-            $(document).ready(function() {
-                $(function() {
-                    $(window).scroll(scrollSet);
-                    scrollSet();
-                });
-            });
-        })(jQuery);
-    </script>
+    <script src="./resources/js.js"></script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
