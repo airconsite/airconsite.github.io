@@ -397,3 +397,8 @@ body {
     font-size: 13px;
     font-weight: bold;
 }
+
+.numberCol p,
+.sm-title {
+    word-break: break-word;
+}
