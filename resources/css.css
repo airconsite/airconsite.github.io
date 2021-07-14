@@ -160,12 +160,12 @@ footer a {
         font-size: 21px;
     }
     .frontface-content {
-        top: 28%;
+        top: 12%;
         left: 10%;
         width: 80%;
     }
     .section {
-        padding: 50px;
+        padding: 25px;
     }
     .punchline {
         font-size: 30px;
@@ -206,6 +206,9 @@ footer a {
         margin-top: 6vh;
         padding-top: 6vh;
         border-top: 1px solid black;
+    }
+    img.ml-3.mb-3 {
+        margin: 10px 0 0 0 !important;
     }
 }
 
