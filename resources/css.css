@@ -408,3 +408,7 @@ body {
 .sm-title {
     word-break: break-word;
 }
+
+span.ul {
+    text-decoration: underline;
+}
