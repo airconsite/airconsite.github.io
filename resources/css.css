@@ -167,6 +167,9 @@ footer a {
         left: 10%;
         width: 80%;
     }
+    #homepageFrontface {
+        top: 26% !important;
+    }
     .section {
         padding: 25px;
     }
