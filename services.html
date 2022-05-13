@@ -51,6 +51,7 @@
                     <a class="nav-link text-white" target="_blank" href="https://airconsystems.medium.com/">Knowledge
                         Blog <span><img class="newtab-icon" src="./resources/newtab.png" /></span> </a>
                 </li>
+                
             </ul>
             <ul class="navbar-nav d-sm-block">
                 <li class="nav-item">
@@ -86,6 +87,8 @@
                         </a>
                         <a class="list-group-item list-group-item-action">Portable Welding Fume Extractor</a>
                         <a class="list-group-item list-group-item-action">Pneumatic Conveying System</a>
+                        <a class="list-group-item list-group-item-action">Vapour Recovery Unit</a>
+                        <a class="list-group-item list-group-item-action">Downdraft Table</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-9">
@@ -116,15 +119,14 @@
                                             </span>
                                             <label>Video</label>
                                         </a>
-
-                                        <a class="bv-button" style="margin: 0 0 0 17.5px;" data-toggle="modal"
-                                            data-target="#costingModal">
+                                        <!-- 
+                                        <a class="bv-button" style="margin: 0 0 0 17.5px;" href="costing.html">
                                             <span class="calculator-button">
                                                 <img src="resources/calculator.png" alt="Get Basic Costing"
                                                     title="Get Basic Costing">
                                             </span>
                                             <label>Costing</label>
-                                        </a>
+                                        </a> -->
                                         <br><br>Pulse Jet Bag filter is a dry dust filter device. It is suitable for
                                         trapping fine, dry, non-fibrous dust.
                                         <br> The filter bag is made of woven filter cloth or non-woven felt, and the
@@ -280,60 +282,52 @@
                                 <img alt="Pneumatic Conveying System" src="resources/product/pcs.png" class="w-100" />
                             </div>
                         </div>
+                        <div class="row hidden">
+                            <div class="col-sm-12">
+                                <h3 class="text-center">
+                                    <span>Vapour Recovery Unit</span>
+                                </h3>
+                                <!-- <h6 class="text-center">
+                                    Safe transporter for bulk materials
+                                </h6> -->
+                                <p class="clearfix mt-4">
+                                    A Vapor Recovery Unit (VRU) is a set-up designed to remove unwanted vapors present
+                                    in crude oil or distillate tanks allowing operators to comply with prevailing
+                                    emission regulations. VRU systems can be employed in a wide range of chemical
+                                    industries with several variants available. For example, a vapor recovery system for
+                                    storage tanks can be used to recover vent gas from crude oil and distillate tanks at
+                                    storage facilities.
+                                    <br><br>
+                                    The typical VRU consists of four principal components:
+                                <ul>
+                                    <li>Gas Compressor</li>
+                                    <li>Scrubber</li>
+                                    <li>Variable Frequency Drives (VFDs)</li>
+                                    <li>Switching device</li>
+                                </ul>
+                                </p>
+                                <img alt="Vapour Recovery Unit" src="resources/product/vru.jpg" class="w-100" />
+                            </div>
+                        </div>
+                        <div class="row hidden">
+                            <div class="col-sm-12">
+                                <h3 class="text-center">
+                                    <span>Downdraft Table</span>
+                                </h3>
+                                <h6 class="text-center">
+                                    Workplace Safety
+                                </h6>
+                                <p class="clearfix mt-4">
+                                    Workers safety and hygiene is one of the important criteria in the manufacturing industry. In processes like grinding, buffing and welding the sparks and smoke produced is irritating and harmful to the operator.
+                                </p>
+                                <img alt="Downdraft Table" src="resources/product/downdraft.png" class="w-100" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="costingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-
-                        <div class="form-row">
-                            <div class="form-group col-md-3">
-                                <label>Currency</label>
-                            </div>
-                            <div class="form-group col-md-9">
-                                <div class="btn-group" role="group">
-                                    <button onclick="$('.btn-dark').removeClass('btn-dark'); $(this).addClass('btn-dark')" type="button" class="btn btn-dark border-dark">INR</button>
-                                    <button onclick="$('.btn-dark').removeClass('btn-dark'); $(this).addClass('btn-dark')" type="button" class="btn btn-light border-dark">USD</button>
-                                    <button onclick="$('.btn-dark').removeClass('btn-dark'); $(this).addClass('btn-dark')" type="button" class="btn btn-light border-dark">POUND</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-3">
-                                <label>Air Capacity (CMH)</label>
-                            </div>
-                            <div class="form-group col-md-9">
-                                <span>10,000</span>
-                                <input style="width: 50%;" min="10000" value="25000" max="50000" step="5000" type="range" class="custom-range"
-                                    id="cmhRange" onchange="$('#cmhNumber').val($(this).val())">
-                                <span>50,000</span>
-                                <input value="25000" style="width: 25%;margin-left: 25px;" type="number" id="cmhNumber">
-                            </div>
-                        </div>
-
-                        <button onclick="calculateCosting()" type="button" class="btn btn-primary">Calculate</button>
-                    </form>
-                    <div style="margin-top: 25px;" id="result"></div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
 
     <footer class="footer">
         <div style="background-color: #333333; color: white" class="inner-footer">
@@ -401,13 +395,13 @@
     <script src="./resources/js.js"></script>
 
     <script>
-        function calculateCosting(){
+        function calculateCosting() {
             var typ = $('#cmhNumber').val() > 25000 ? 'Offline' : 'Online';
             var currency = $('.btn-dark').text();
 
             var cost = 1000000;
 
-            if(typ == 'Offline'){
+            if (typ == 'Offline') {
                 cost = cost + (cost * 0.2);
             }
 

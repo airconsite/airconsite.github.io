@@ -350,6 +350,10 @@ body {
     background: url(./burger.png);
 }
 
+.list-group-item-action {
+    background: #dedede;
+}
+
 .list-group-item-action.active {
     background: #000;
     color: #fff !important;
