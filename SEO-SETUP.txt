@@ -1,0 +1,31 @@
+SEO IMPLEMENTED
+- Static product content available without JavaScript.
+- Ten focused product pages with unique titles and descriptions.
+- Canonical URLs for airconsystems.in; duplicate About URLs use /about/.
+- Organization, WebSite, WebPage, catalogue and breadcrumb JSON-LD.
+- Crawlable product links, robots.txt and sitemap.xml (13 canonical pages).
+- Descriptive equipment image text, local fonts and brochures.
+- Legacy services and contact redirects in .htaccess.
+
+TARGET SEARCH THEMES (not search-volume or ranking claims)
+Industrial dust collector manufacturer India; pulse jet bag filter manufacturer;
+online and offline bag filters; centrifugal blower manufacturer; ID fan manufacturer;
+industrial scrubber manufacturer; butterfly valve manufacturer; activated carbon filter;
+rotor and shaft assemblies; portable welding fume extractor; pneumatic conveying system;
+vapour recovery unit; downdraft table; air pollution control equipment manufacturer;
+industrial ventilation equipment; industrial air handling systems;
+pollution control equipment Uttar Pradesh, Sahibabad, Murad Nagar.
+
+AFTER UPLOAD
+1. Verify the domain in Google Search Console using its provided verification method.
+2. Submit https://airconsystems.in/sitemap.xml.
+3. Inspect the homepage and important product URLs and request indexing.
+4. Check redirects and that the site is available over HTTPS.
+5. Maintain accurate business details and add genuine project case studies.
+6. Add detailed approved specifications and authentic customer references over time.
+
+Keywords and this package do not guarantee rankings or indexing.
+No hidden keyword lists, fabricated reviews, prices or performance claims are included.
+Structured data helps describe the company; rich results are not guaranteed.
+External setup, Search Console verification and sitemap submission have not been performed.
+Google guidance: https://developers.google.com/search/docs/fundamentals/seo-starter-guide

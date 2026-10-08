@@ -1,0 +1,6 @@
+DirectoryIndex index.html
+
+<IfModule mod_alias.c>
+RedirectMatch 301 ^/services\.html$ /products.html
+RedirectMatch 301 ^/contact\.html$ /index.html#contact
+</IfModule>
