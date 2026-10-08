@@ -1,37 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://airconsystems.in/</loc>
-  <lastmod>2026-09-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://airconsystems.in/about.html</loc>
-  <lastmod>2026-09-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://airconsystems.in/centrifugal-blower-id-fan.html</loc>
-  <lastmod>2026-09-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://airconsystems.in/contact.html</loc>
-  <lastmod>2026-09-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://airconsystems.in/costing.html</loc>
-  <lastmod>2026-09-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://airconsystems.in/pulse-jet-bag-filter.html</loc>
-  <lastmod>2026-09-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://airconsystems.in/services.html</loc>
-  <lastmod>2026-09-12T00:00:00+00:00</lastmod>
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://airconsystems.in/</loc></url>
+  <url><loc>https://airconsystems.in/about/</loc></url>
+  <url><loc>https://airconsystems.in/pulse-jet-bag-filter.html</loc></url>
+  <url><loc>https://airconsystems.in/centrifugal-blower-id-fan.html</loc></url>
+  <url><loc>https://airconsystems.in/industrial-scrubbers.html</loc></url>
+  <url><loc>https://airconsystems.in/butterfly-valves.html</loc></url>
+  <url><loc>https://airconsystems.in/activated-carbon-filters.html</loc></url>
+  <url><loc>https://airconsystems.in/rotor-shaft-assemblies.html</loc></url>
+  <url><loc>https://airconsystems.in/welding-fume-extractors.html</loc></url>
+  <url><loc>https://airconsystems.in/pneumatic-conveying-systems.html</loc></url>
+  <url><loc>https://airconsystems.in/vapour-recovery-units.html</loc></url>
+  <url><loc>https://airconsystems.in/downdraft-tables.html</loc></url>
+  <url><loc>https://airconsystems.in/products.html</loc></url>
 </urlset>

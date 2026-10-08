@@ -1,0 +1,40 @@
+AIRCON SYSTEMS — READY TO UPLOAD WEBSITE
+
+This is a complete static website: HTML, CSS, JavaScript, photographs,
+client logos, local font files and two product brochures.
+No Node.js, npm, build command, database or Sites account is required.
+
+CPANEL UPLOAD
+1. In cPanel > Domains, confirm that airconsystems.in uses the document root
+   public_html/airconsystems.in shown in your screenshot.
+2. Back up any existing website files in that domain folder before replacing them.
+3. Open public_html/airconsystems.in in File Manager. Upload Aircon-Systems-Website.zip.
+4. Select the ZIP and click Extract. Extract INTO public_html/airconsystems.in.
+5. index.html, professional.css, design.js, assets/, resources/ and about/
+   must sit directly inside that folder, not inside another aircon-upload folder.
+6. Open https://airconsystems.in/ and https://airconsystems.in/about/.
+   Refresh with Ctrl+F5 if you see cached content.
+7. Check navigation, product photographs, gallery filters and WhatsApp links.
+   After checking, you may remove the uploaded ZIP and this instructions file.
+
+Do not extract into public_html itself: your screenshot shows other sites there.
+If cPanel shows a different document root, use that domain's actual document root.
+Keep any existing mail, verification, security or unrelated domain files.
+If an existing index.php loads instead, the included .htaccess sets index.html first;
+merge its DirectoryIndex instruction into existing .htaccess if necessary.
+
+EDITING
+Main page: index.html
+About page: about.html and about/index.html (keep both versions consistent)
+Colours and responsive styling: professional.css
+Shared script and embedded product data: design.js
+Product data reference: products.json (editing this alone does not update design.js)
+Photographs, logos and fonts: assets/
+Brochures: resources/
+WhatsApp destination: 919312893079 in design.js
+
+EXTERNAL SERVICES
+WhatsApp opens with the visitor's enquiry ready to review and send.
+The map uses Google Maps, videos use YouTube and social links open their services.
+Fonts and brochures are included locally; no Google Fonts download is needed.
+This package does not itself upload or replace the live website.
